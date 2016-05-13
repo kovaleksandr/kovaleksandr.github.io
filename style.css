@@ -1,0 +1,28 @@
+body {
+    font-family: inherit;
+    /*padding: 50px;*/
+}
+
+div {
+    padding-left: 50px;
+}
+
+hr {
+    width: 90%;
+}
+
+img {
+    width: 30%;
+    }
+
+ul {
+    padding-left: 18px;
+}
+
+.head {
+    text-align: center;
+}
+
+.head>p {
+    text-align: left;
+}
