@@ -1,0 +1,28 @@
+body{
+    font-family: inherit;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    background-color: #FFF;
+}
+
+hr{
+    width: 90%;
+}
+
+img{
+    width: 30%;
+    border-radius: 5%;
+    margin-left: 35%;
+    }
+ul{
+    width: 200px;
+    
+}
+
+.head>p{
+    text-align: left;
+}
+.con{
+    margin-left: 40%;
+}
