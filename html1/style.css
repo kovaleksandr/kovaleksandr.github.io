@@ -15,14 +15,11 @@ img{
     border-radius: 5%;
     margin-left: 35%;
     }
+
 ul{
-    width: 200px;
-    
+    width: 200px;  
 }
 
-.head>p{
-    text-align: left;
-}
 .con{
     margin-left: 40%;
 }
