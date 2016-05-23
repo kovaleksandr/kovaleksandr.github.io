@@ -1,0 +1,45 @@
+body{
+  background-color: #F9F9F9;
+}
+
+.box{
+  width: 1000px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h1{
+  margin: 20px;
+}
+
+.menu{
+  background-color: #464545;
+  height: 20px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+
+}
+
+.left-bar{
+
+  width: 300px;
+  float: left;
+  margin: 20px;
+  border: solid grey;
+
+}
+
+.image{
+  float: right;
+  width: 500px;
+  height: 400px;
+  background-color: green;
+  margin: 20px 110px 20px 20px;
+  border: solid black;
+}
