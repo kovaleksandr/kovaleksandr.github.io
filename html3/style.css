@@ -1,16 +1,21 @@
 body{
   background-color: #F9F9F9;
+  width: 1000px;
 }
 
-.box{
-  width: 1000px;
+.box-general{
+  width: 900px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 50px;
 }
+
 
 h1{
   margin: 20px;
 }
+
+/*top menu*/
 
 .menu{
   background-color: #464545;
@@ -23,23 +28,91 @@ h1{
   color: white;
   text-decoration: none;
   padding: 15px;
-
 }
 
-.left-bar{
 
+
+/*clearfix for flow*/
+.box{
+  zoom: 1;  /*to support IE*/
+}
+
+.box:before,
+.box:after{
+  content: " ";
+  display: table;
+}
+
+.box::after{
+  clear: both;
+}
+
+/*Left menu:*/
+
+.bar{
   width: 300px;
   float: left;
   margin: 20px;
-  border: solid grey;
 
 }
 
+.bar div{
+  border: solid grey 1px;
+  border-bottom: 0px;
+  padding: 10px 20px;
+
+}
+
+.bar div:last-child{
+  border-bottom: solid grey 1px;
+}
+
+div a{
+  text-decoration: none;
+  color: black;
+}
+
+/*right column*/
+
 .image{
   float: right;
+  margin: 20px 20px 20px 20px;
   width: 500px;
-  height: 400px;
-  background-color: green;
-  margin: 20px 110px 20px 20px;
-  border: solid black;
+}
+
+.image img{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  border: solid grey 1px;
+}
+
+p{
+  padding: 10px;
+}
+
+/*footer*/
+.footer{
+  background-color: #E1E1E1;
+  padding: 10px 20px;
+
+}
+
+.footer a{
+  padding-right: 50px;
+  color: #2C2C2C;
+  text-decoration-color: #686868;
+  text-decoration: none;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+}
+
+.footer a:hover{
+  text-decoration-line: underline;
+
+}
+
+.footer span{
+  padding-left: 250px;
+  color: #2C2C2C;
 }
