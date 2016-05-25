@@ -101,18 +101,28 @@ p{
 .footer a{
   padding-right: 50px;
   color: #2C2C2C;
-  text-decoration-color: #686868;
-  text-decoration: none;
-  text-decoration-style: solid;
-  text-decoration-color: red;
-}
-
-.footer a:hover{
-  text-decoration-line: underline;
-
 }
 
 .footer span{
   padding-left: 250px;
   color: #2C2C2C;
+}
+/*Hover:*/
+a:hover{
+  text-decoration: underline;
+}
+
+.menu a:hover{
+  background-color: #3C3C3C;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+/*no left board with the left element in the menu. Works if replace .menu with div*/
+/*.menu:first-child a:hover{
+  border-left: 0px;
+}*/
+
+.bar div:hover{
+  background-color: #F9F9F9;
 }
