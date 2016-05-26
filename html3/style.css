@@ -18,7 +18,9 @@ h1{
 /*top menu*/
 
 .menu{
-  background-color: #464545;
+  background: #464545;
+  background: -webkit-linear-gradient(top, #5E5E5E, #444343);
+  background: -moz-linear-gradient(bottom, #5E5E5E, #444343);
   height: 20px;
   margin: 20px;
   padding: 15px;
@@ -110,10 +112,13 @@ p{
 /*Hover:*/
 a:hover{
   text-decoration: underline;
+  /*border-bottom: 1px solid #686868;*/
 }
 
 .menu a:hover{
   background-color: #3C3C3C;
+  background: -webkit-linear-gradient(top, #4A4A4A, #2E2E2E);
+  background: -moz-linear-gradient(bottom, #4A4A4A, #2E2E2E);
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
 }
