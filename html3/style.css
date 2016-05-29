@@ -1,18 +1,20 @@
 body{
   background-color: #F9F9F9;
-  width: 1000px;
 }
 
 .box-general{
   width: 900px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  margin: 50px;
+  margin: 50px auto;
+  padding: 10px;
 }
 
 
 h1{
   margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*top menu*/
@@ -21,15 +23,15 @@ h1{
   background: #464545;
   background: -webkit-linear-gradient(top, #5E5E5E, #444343);
   background: -moz-linear-gradient(bottom, #5E5E5E, #444343);
-  height: 20px;
+  height: 12px;
   margin: 20px;
-  padding: 15px;
+  padding: 10px;
 }
 
 .menu a{
   color: white;
   text-decoration: none;
-  padding: 15px;
+  padding: 10px 15px;
 }
 
 
@@ -91,12 +93,14 @@ div a{
 
 p{
   padding: 10px;
+  /*margin: 20px;*/
 }
 
 /*footer*/
 .footer{
   background-color: #E1E1E1;
   padding: 10px 20px;
+  margin: 0 10px;
 
 }
 
@@ -106,11 +110,11 @@ p{
 }
 
 .footer span{
-  padding-left: 250px;
+  padding-left: 235px;
   color: #2C2C2C;
 }
 /*Hover:*/
-a:hover{
+.footer a:hover{
   text-decoration: underline;
   /*border-bottom: 1px solid #686868;*/
 }
@@ -121,6 +125,7 @@ a:hover{
   background: -moz-linear-gradient(bottom, #4A4A4A, #2E2E2E);
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
+  padding: 9px 14px 5px;
 }
 
 /*no left board with the left element in the menu. Works if replace .menu with div*/
@@ -130,4 +135,5 @@ a:hover{
 
 .bar div:hover{
   background-color: #F9F9F9;
+  padding: 10px 20px 10px 30px;
 }
