@@ -1,0 +1,147 @@
+body {
+  background: url('images/bg-body.png') no-repeat;
+  font: Tahoma, san-serif;
+  font-size: 14px;
+  height: 1015px;
+  width: 1300px;
+}
+
+.inbox {
+  margin: 0 150px;
+  overflow: hidden;
+  width: 1000px;
+}
+
+/*header*/
+header {
+  background-color: #fff;
+  padding-top: 7px;
+}
+
+.logo {
+  padding: 0 30px;
+}
+
+.contacts {
+  margin: 5px 30px 30px 170px;
+}
+
+.contacts div:first-child {
+  font-weight: bold;
+}
+
+.contacts div {
+  color: #128aa7;
+  font-size: 12px;
+  margin: 3px auto;
+
+}
+
+.clearfix::after {
+  clear: both;
+  content: none;
+}
+
+.rightFlow {
+  float: right;
+  width: 360px;
+}
+
+header li {
+  color: #128aa7;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+}
+
+hr {
+  color: #128aa7;
+  margin: 0;
+}
+
+/*header*/
+
+
+/*menu*/
+
+nav ul {
+  background-color: #353535;
+  border-bottom: 1px solid black;
+  display: block;
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+}
+nav ul:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+nav ul.menu > li {
+  float: left;
+  position: relative;
+  padding: 8px 40px;
+}
+ul.menu > li > a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+ul.submenu {
+  display: none;
+  position: absolute;
+  width: 150px;
+  top: 25px;
+  left: 30px;
+}
+ul.submenu > li {
+  display: block;
+}
+ul.submenu > li > a {
+  display: block;
+  padding: 10px;
+  color: white;
+  background-color: #353535;
+  text-decoration: none;
+}
+ul.submenu > li > a:hover {
+  text-decoration: underline;
+}
+
+ul.menu > li:hover > ul.submenu {
+  display: block;
+}
+
+/*menu*/
+
+/*content*/
+
+.leftColumn,
+.rightColumn {
+  width: 120px;
+  background-color: #edeef0;
+  height: 508px;
+  padding: 15px;
+}
+
+
+.leftColumn {
+  float: left;
+  border-right: 2px solid #c7cacf;
+}
+
+.rightColumn {
+  float: right;
+  border-left: 2px solid #c7cacf;
+}
+
+h2 {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #424c43;
+}
