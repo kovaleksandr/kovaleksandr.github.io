@@ -9,7 +9,7 @@ body{
   width: 515px;
   height: 800px;
   padding: 52px;
-  margin: 10px 50px 50px 50px;
+  margin: 10px auto;
   border-radius: 1px;
   box-shadow: 0px 0px 13px 0px rgba(50, 50, 50, 0.86)
 }
@@ -32,6 +32,10 @@ li{
   margin-bottom: 10px;
 }
 
+ul {
+  margin-left: -25px;
+}
+
 .head{
 
     text-align: center;
@@ -41,4 +45,13 @@ li{
 
   text-align: left;
 
+}
+
+.border {
+  border-bottom: 1px solid black;
+  display: block;
+}
+
+.border-top {
+  border-top: 1px solid black;
 }
