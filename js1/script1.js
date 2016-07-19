@@ -8,7 +8,6 @@ if (power !== null && number !== null) {
       case true:
         for (i=1; i <= power; i++) {
           result *= number;
-          console.log(result);
         }
         break;
 
@@ -16,7 +15,6 @@ if (power !== null && number !== null) {
         power = -power;
         for (i=1; i <= power; i++) {
           result /= number;
-          console.log(result);
         }
         break;
 }
