@@ -14,12 +14,11 @@ var userName = prompt('Put in user name');
 
 for (; k < myArray.length; k++){
   nullCheck = myArray[k];
-  if (nullCheck == null) {
+  if (nullCheck == null || nullCheck == '') {
     break;
   }
 }
-if (nullCheck != null) {
-  if (userName != null) {
+if (nullCheck != null && nullCheck != '' && userName != null && userName != '') {
 
   for (; j < myArray.length; j++){
     nameComparison = myArray[j];
@@ -34,10 +33,6 @@ if (nullCheck != null) {
     alert('Error!');
   }
 
-  }
-  else {
-    alert('Put in correct username!');
-  }
 }
 else {
   alert('Put in correct names!');
