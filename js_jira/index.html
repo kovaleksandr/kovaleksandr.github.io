@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <script>blocker = 0;</script>
+
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>Contacts</li>
+    </ul>
+  </header>
+  <form name="myForm">
+    <div class="form-input">
+        <label for="inputField">Email address</label>
+        <input type="text" class="form-control" id="inputField" placeholder="Emails" name="input">
+    </div>
+    <div>
+        <button class="btn btn-default" onclick="convert(this.form); return false;">Convert</button>
+    </div>
+</form>
+<script async type="text/javascript" src='script.js'>
+</script>
+</html>
